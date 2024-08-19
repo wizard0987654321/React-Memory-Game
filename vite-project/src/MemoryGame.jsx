@@ -68,7 +68,6 @@ function shuffleCards() {
             <PokemonCard key={pokemon.name} name={pokemon.name} imgUrl={pokemon.imgUrl} onClick={updateScore}/>
           ))
     }
-
         </div>
     </div>
   );
